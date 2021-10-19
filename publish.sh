@@ -12,6 +12,6 @@ cat index.js >> tempfile.$$
 mv tempfile.$$ index.js
 
 # Step2: run npm publish
-npm publish
+npm publish --access public
 
 pushd 1>/dev/null

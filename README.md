@@ -1,3 +1,4 @@
+# Forked from [Gyumeijie/github-files-fetcher](https://github.com/Gyumeijie/github-files-fetcher/pull/9) as the author can no longer publish NPM package for this project.
 # Introduction [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 The `github-files-fetcher` is designed for downloading parts of a github repository. This is very useful if you have a low bandwidth network or only need a particular file or subdirectory from a large repository. If you want to download a whole repository, prefer `git clone`.
@@ -61,7 +62,7 @@ When the default unauthorized API access rate exceeded, `github-files-fetcher` w
 `github-files-fetcher` requests resources without authentication by default to improve performance. However, this incurs a delay once the default unauthorized API access rate exceeded. To avoid this problem you can specify the `--alwaysUseAuth` option so `github-files-fetcher` always uses authentication.
 
 # Environment
-`node >= 6`
+Latest NodeJS LTS (currently Node v14)
 
 # Related works
 There are some other good tools that function similarly:
